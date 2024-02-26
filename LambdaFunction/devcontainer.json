@@ -1,0 +1,6 @@
+{
+  "name": "LambdaFunction",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace"
+}

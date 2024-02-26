@@ -1,0 +1,14 @@
+{
+  "name": "terraform-localstack-dev-container",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "postStartCommand": "post-start",
+  "customizations": {
+    "vscode": {
+      "extensions": ["hashicorp.terraform"],
+      "settings": {}
+    }
+  },
+  "remoteUser": "vscode"
+}
